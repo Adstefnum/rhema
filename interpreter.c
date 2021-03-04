@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 void main() {
-	double store;
-	printf("rhema> "); fflush(stdout);
+	int store;
+	scanf("%lf\nrhema> ",&store);
   for (;;) {
-	  scanf("%lf\nrhema> ",&store);
- }
+      printf("%lf",store);
+  
+  }
   }
